@@ -1,0 +1,15 @@
+{
+    "files.exclude": {
+        ".vs": true,
+        "**/*.user": true,
+        "**/api.xml": true,
+        "**/bin": true,
+        "**/obj": true
+    },
+    "cSpell.words": [
+        "Milli",
+        "millis"
+    ],
+    "omnisharp.useModernNet": true,
+    "omnisharp.path": "latest"
+}

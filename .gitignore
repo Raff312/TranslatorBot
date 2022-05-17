@@ -1,0 +1,12 @@
+*.suo
+*.orig
+**/bin
+**/obj
+.vs
+.idea
+.sass-cache
+
+**/*.user
+global.json
+
+/secure/**

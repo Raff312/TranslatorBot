@@ -1,0 +1,13 @@
+{
+    "Database": {
+        "ConnectionString": "mongodb://localhost/translatorBot"
+    },
+    "BotConfiguration": {
+        "Token": "<YOUR_TELEGRAM_BOT_TOKEN>",
+        "HostAddress": "<YOUR_HOST_ADDRESS>"
+    },
+    "YandexTranslateOptions": {
+        "OauthToken": "<YOUR_OAUTH_TOKEN>",
+        "FolderId": "<YOUR_FOLDER_ID>"
+    }
+}

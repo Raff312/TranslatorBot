@@ -1,0 +1,46 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (web)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/TranslatorBot.WebApi/bin/Debug/net6.0/TranslatorBot.WebApi.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/TranslatorBot.WebApi",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        },
+        {
+            "name": "Launch Initializer",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/TranslatorBot.Initializer/bin/Debug/net6.0/TranslatorBot.Initializer.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/TranslatorBot.Initializer/bin/Debug/net6.0/",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "JobManager",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-jobmanager",
+            "program": "${workspaceRoot}/TranslatorBot.JobManager/bin/Debug/net6.0/TranslatorBot.JobManager.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}/TranslatorBot.JobManager/bin/Debug/net6.0/",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
